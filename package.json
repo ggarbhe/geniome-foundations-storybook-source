@@ -1,0 +1,16 @@
+{
+  "name": "geniome-foundations-storybook",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/html": "latest",
+    "@storybook/html-vite": "latest",
+    "storybook": "latest",
+    "vite": "latest"
+  }
+}

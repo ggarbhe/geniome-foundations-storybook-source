@@ -1,0 +1,59 @@
+import { registerBaseTokens, registerSemanticTokens, registerComponentTokens, tokenBlock } from '../foundations.js';
+
+export default {
+  title: 'Colours/Component',
+};
+
+/* ===================== COMPONENT ===================== */
+export const Default = {
+  render: () => {
+    registerBaseTokens();
+    registerSemanticTokens();
+    registerComponentTokens();
+    const el = document.createElement('div');
+    el.className = 'fnd-wrap';
+
+    const html =
+      `<div class="subgroup-label">Button</div>` + tokenBlock('', '', [
+        ['--component-button-primary-default-background', 'button-primary-default-background', 'semantic action-primary-default', 'Primary fill, resting'],
+        ['--component-button-primary-hover-background', 'button-primary-hover-background', 'semantic action-primary-hover', 'Primary fill, hover'],
+        ['--component-button-primary-active-background', 'button-primary-active-background', 'semantic action-primary-active', 'Primary fill, pressed'],
+        ['--component-button-primary-default-text', 'button-primary-default-text', 'semantic text-inverse', 'Primary label colour'],
+        ['--component-button-secondary-default-background', 'button-secondary-default-background', 'semantic bg-surface', 'Secondary fill'],
+        ['--component-button-secondary-default-border', 'button-secondary-default-border', 'semantic border-default', 'Secondary outline'],
+      ]) +
+      `<div class="subgroup-label">Alert</div>` + tokenBlock('', '', [
+        ['--component-alert-error-background', 'alert-error-background', 'colour-crimson-50', 'Error tint (documented exception)'],
+        ['--component-alert-error-stroke', 'alert-error-stroke', 'semantic feedback-error', 'Error border'],
+        ['--component-alert-error-text', 'alert-error-text', 'colour-crimson-800', 'Error copy, tuned for AA on the tint'],
+        ['--component-alert-success-background', 'alert-success-background', 'colour-emerald-50', 'Success tint'],
+        ['--component-alert-success-stroke', 'alert-success-stroke', 'semantic feedback-success', 'Success border'],
+      ]) +
+      `<div class="subgroup-label">Tooltip</div>` + tokenBlock('', '', [
+        ['--component-tooltip-background', 'tooltip-background', 'colour-neutral-900', 'Always dark, regardless of theme'],
+        ['--component-tooltip-heading', 'tooltip-heading', 'colour-neutral-white', 'Tooltip title'],
+        ['--component-tooltip-body', 'tooltip-body', 'colour-neutral-200', 'Tooltip body copy'],
+      ]) +
+      `<div class="subgroup-label">Input</div>` + tokenBlock('', '', [
+        ['--component-input-default-border', 'input-default-border', 'semantic border-default', 'Resting border'],
+        ['--component-input-hover-border', 'input-hover-border', 'semantic border-strong', 'Hover border'],
+        ['--component-input-focus-border', 'input-focus-border', 'semantic border-focus', 'Focus border'],
+        ['--component-input-error-border', 'input-error-border', 'semantic feedback-error', 'Validation error border'],
+        ['--component-input-placeholder-text', 'input-placeholder-text', 'semantic text-muted', 'Placeholder copy'],
+      ]) +
+      `<div class="subgroup-label">Badge</div>` + tokenBlock('', '', [
+        ['--component-badge-success-background', 'badge-success-background', 'colour-emerald-100', 'Success badge fill'],
+        ['--component-badge-success-text', 'badge-success-text', 'colour-emerald-800', 'Success badge label'],
+      ]);
+
+    el.innerHTML = `
+      <div class="fnd-head">
+        <div class="fnd-eyebrow">Geniome · Foundations · Colours</div>
+        <h1>Slot-level overrides per component</h1>
+        <p>Component tokens narrow semantic colours down to specific slots — <code>button-primary-default-background</code>, <code>alert-error-stroke</code>, <code>tooltip-heading</code>. They give every component a stable contract even as the underlying palette evolves.</p>
+      </div>
+      ${html}
+    `;
+    return el;
+  },
+};
