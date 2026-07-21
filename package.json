@@ -9,10 +9,11 @@
     "deploy": "gh-pages -d storybook-static"
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^10.5.3",
     "@storybook/html": "latest",
     "@storybook/html-vite": "latest",
+    "gh-pages": "^6.3.0",
     "storybook": "latest",
-    "vite": "latest",
-    "gh-pages": "^6.3.0"
+    "vite": "latest"
   }
 }
