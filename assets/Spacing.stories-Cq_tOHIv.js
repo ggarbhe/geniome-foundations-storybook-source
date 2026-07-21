@@ -1,4 +1,4 @@
-import{r as e}from"./preload-helper-CGrDLHbs.js";import{i as t,l as n}from"./foundations-Dt6yCKxf.js";var r,i,a;e((()=>{n(),r={title:`Foundations/Spacing`},i={render:()=>{let e=document.createElement(`div`);e.className=`fnd-wrap`;let n=Math.max(...t);return e.innerHTML=`
+import{i as e}from"./preload-helper-BdFrVu1K.js";import{i as t,l as n}from"./foundations-BJzSJudw.js";var r,i,a;e((()=>{n(),r={title:`Foundations/Spacing`},i={render:()=>{let e=document.createElement(`div`);e.className=`fnd-wrap`;let n=Math.max(...t);return e.innerHTML=`
       <div class="fnd-head">
         <div class="fnd-eyebrow">Geniome · Foundations · Spacing</div>
         <h1>A 2-based scale</h1>

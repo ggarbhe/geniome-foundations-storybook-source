@@ -1,4 +1,4 @@
-import{r as e}from"./preload-helper-CGrDLHbs.js";import{l as t,r as n}from"./foundations-Dt6yCKxf.js";var r,i,a;e((()=>{t(),r={title:`Foundations/Shadows`},i={render:()=>{let e=document.createElement(`div`);return e.className=`fnd-wrap`,e.innerHTML=`
+import{i as e}from"./preload-helper-BdFrVu1K.js";import{l as t,r as n}from"./foundations-BJzSJudw.js";var r,i,a;e((()=>{t(),r={title:`Foundations/Shadows`},i={render:()=>{let e=document.createElement(`div`);return e.className=`fnd-wrap`,e.innerHTML=`
       <div class="fnd-head">
         <div class="fnd-eyebrow">Geniome · Foundations · Shadows</div>
         <h1>Three lifts, clear hierarchy</h1>

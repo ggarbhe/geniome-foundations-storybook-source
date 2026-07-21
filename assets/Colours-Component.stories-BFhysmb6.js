@@ -1,4 +1,4 @@
-import{r as e}from"./preload-helper-CGrDLHbs.js";import{d as t,f as n,l as r,m as i,u as a}from"./foundations-Dt6yCKxf.js";var o,s,c;e((()=>{r(),o={title:`Colours/Component`},s={render:()=>{a(),n(),t();let e=document.createElement(`div`);return e.className=`fnd-wrap`,e.innerHTML=`
+import{i as e}from"./preload-helper-BdFrVu1K.js";import{d as t,f as n,l as r,m as i,u as a}from"./foundations-BJzSJudw.js";var o,s,c;e((()=>{r(),o={title:`Colours/Component`},s={render:()=>{a(),n(),t();let e=document.createElement(`div`);return e.className=`fnd-wrap`,e.innerHTML=`
       <div class="fnd-head">
         <div class="fnd-eyebrow">Geniome · Foundations · Colours</div>
         <h1>Slot-level overrides per component</h1>

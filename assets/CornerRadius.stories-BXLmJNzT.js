@@ -1,4 +1,4 @@
-import{r as e}from"./preload-helper-CGrDLHbs.js";import{l as t,n}from"./foundations-Dt6yCKxf.js";var r,i,a;e((()=>{t(),r={title:`Foundations/Radii`},i={render:()=>{let e=document.createElement(`div`);return e.className=`fnd-wrap`,e.innerHTML=`
+import{i as e}from"./preload-helper-BdFrVu1K.js";import{l as t,n}from"./foundations-BJzSJudw.js";var r,i,a;e((()=>{t(),r={title:`Foundations/Radii`},i={render:()=>{let e=document.createElement(`div`);return e.className=`fnd-wrap`,e.innerHTML=`
       <div class="fnd-head">
         <div class="fnd-eyebrow">Geniome · Foundations · Corner Radius</div>
         <h1>From sharp to round</h1>

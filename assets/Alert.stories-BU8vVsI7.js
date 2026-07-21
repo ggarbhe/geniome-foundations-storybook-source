@@ -1,4 +1,4 @@
-import{r as e}from"./preload-helper-CGrDLHbs.js";function t({variant:e=`success`,title:t=`New App version available`,description:r=`Update your app now to experience latest features on the app`,showAction:i=!0,actionText:a=`Learn more`,showAction1:o=!0,actionText1:s=`Button Text →`,trailingIconType:c=`cross`,onDismiss:l=()=>{},onAction:u=()=>{},onAction1:d=()=>{}}={}){let f=document.createElement(`div`);f.className=`alert-cmp variant-${e}`,f.innerHTML=`
+import{i as e}from"./preload-helper-BdFrVu1K.js";function t({variant:e=`success`,title:t=`New App version available`,description:r=`Update your app now to experience latest features on the app`,showAction:i=!0,actionText:a=`Learn more`,showAction1:o=!0,actionText1:s=`Button Text →`,trailingIconType:c=`cross`,onDismiss:l=()=>{},onAction:u=()=>{},onAction1:d=()=>{}}={}){let f=document.createElement(`div`);f.className=`alert-cmp variant-${e}`,f.innerHTML=`
     <div class="alert-icon">${n[e]||`i`}</div>
     <div class="alert-body">
       <p class="alert-title">${t}</p>

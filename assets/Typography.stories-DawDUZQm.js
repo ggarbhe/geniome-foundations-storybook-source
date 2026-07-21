@@ -1,4 +1,4 @@
-import{r as e}from"./preload-helper-CGrDLHbs.js";import{l as t,s as n}from"./foundations-Dt6yCKxf.js";var r,i,a,o;e((()=>{t(),r={title:`Foundations/Typography`},i=`Aa Bb Cc — The quick brown fox jumps over the lazy dog.`,a={render:()=>{let e=document.createElement(`div`);return e.className=`fnd-wrap`,e.innerHTML=`
+import{i as e}from"./preload-helper-BdFrVu1K.js";import{l as t,s as n}from"./foundations-BJzSJudw.js";var r,i,a,o;e((()=>{t(),r={title:`Foundations/Typography`},i=`Aa Bb Cc — The quick brown fox jumps over the lazy dog.`,a={render:()=>{let e=document.createElement(`div`);return e.className=`fnd-wrap`,e.innerHTML=`
       <div class="fnd-head">
         <div class="fnd-eyebrow">Geniome · Foundations · Typography</div>
         <h1>Reddit Sans, all the way down</h1>

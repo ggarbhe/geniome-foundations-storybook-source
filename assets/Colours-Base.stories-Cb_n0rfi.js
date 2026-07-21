@@ -1,4 +1,4 @@
-import{r as e}from"./preload-helper-CGrDLHbs.js";import{a as t,c as n,l as r,t as i,u as a}from"./foundations-Dt6yCKxf.js";var o,s,c;e((()=>{r(),o={title:`Colours/Base`},s={render:()=>{a();let e=document.createElement(`div`);e.className=`fnd-wrap`,e.innerHTML=`
+import{i as e}from"./preload-helper-BdFrVu1K.js";import{a as t,c as n,l as r,t as i,u as a}from"./foundations-BJzSJudw.js";var o,s,c;e((()=>{r(),o={title:`Colours/Base`},s={render:()=>{a();let e=document.createElement(`div`);e.className=`fnd-wrap`,e.innerHTML=`
       <div class="fnd-head">
         <div class="fnd-eyebrow">Geniome · Foundations · Colours</div>
         <h1>The raw palette</h1>
